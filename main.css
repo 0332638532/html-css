@@ -1,0 +1,79 @@
+/* reset margin,padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner {
+    height: 100%;
+    background: url("bg-10-full.jpg") center center no-repeat;
+}
+
+.header {
+    text-align: right;
+    padding: 40px;
+}
+
+.about-us,
+.sign-in {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.sign-in {
+    margin: 20px 40px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.icon-content {
+    height: 128px;
+    margin-top: 50px;
+}
+
+.icon-gift,
+.icon-clock,
+.icon-like {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+span {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.content-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content-text span {
+    color: yellow;
+}
+
+.start-now {
+    text-align: center;
+}
+
+.btn-start {
+    margin: 20px 40px;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: green;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
